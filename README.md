@@ -1,3 +1,4 @@
+![Starwars App](https://user-images.githubusercontent.com/57904867/116157437-44671b80-a6ed-11eb-9d37-7201d086361a.png)
 # swapi-starwars-api
 
 ## Table of contents
