@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "StarJedi";
+  src: url(./fonts/starjedi/Starjedi.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "StarJedi";
+  background: black;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gold;
+  border-radius: 10px;
+}

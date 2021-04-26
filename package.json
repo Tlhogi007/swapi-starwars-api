@@ -1,0 +1,35 @@
+{
+  "name": "starwars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Letlhogonolo Sekwati",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "axios": "^0.21.1",
+    "concurrently": "^6.0.2",
+    "cores": "^0.8.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "git": "^0.1.5",
+    "graphql": "^15.5.0",
+    "node-fetch": "^2.6.1",
+    "npm-git-install": "^0.3.0",
+    "react-apollo": "^3.1.5",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.3"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.7",
+    "gh-pages": "^3.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
